@@ -1,0 +1,100 @@
+Package prolixa;
+
+Helpers
+    letter = ['a'..'z'] | ['A'..'Z'] ;
+    digit = ['0'..'9'] ;
+    capital_letter = ['A'..'Z'] ;
+    underline = '_' ;
+    space = ' ';
+    rc = 13;
+    nl = 10;
+
+Tokens
+
+// Início do programa
+    this = 'This' ;
+    is = 'is' ;
+    program = 'program' ;
+
+// Declaração
+    it = 'It' ;
+    presents = 'presents' ;
+
+// Bloco de comandos
+    let = 'Let' ;
+    us = 'us' ;
+    begin = 'begin' ;
+    that = 'That' ;
+    would = 'would' ;
+    be = 'be' ;
+    all = 'all' ;
+
+// Tipos primitivos
+    number = 'number' ;
+    symbol = 'symbol' ;
+    answer = 'answer' ;
+    yes = 'yes' ;
+    no = 'no' ;
+
+// Modificadores
+    alterable = 'alterable' ;
+    unalterable = 'unalterable' ;
+
+// Operadores
+    assign = ':=' ;
+    equals = '=' ;
+    plus = '+' ;
+    minus = '-' ;
+    times = '*' ;
+    divide = '/' ;
+    int_div = '//' ;
+    eq = '==' ;
+    neq = '!=' ;
+    le = '<=' ;
+    ge = '>=' ;
+    lt = '<' ;
+    gt = '>' ;
+    not = '!' ;
+    and = 'and' ;
+    or = 'or' ;
+    xor = 'xor' ;
+
+// Estruturas de controle
+    just = 'just' ;
+    in = 'in' ;
+    case = 'case' ;
+    that_kw = 'that' ;
+    do = 'do' ;
+    otherwise = 'otherwise' ;
+    as = 'as' ;
+    long = 'long' ;
+    considering = 'considering' ;
+    from = 'from' ;
+    to = 'to' ;
+    by = 'by' ;
+
+// Comandos especiais
+    abandon = 'abandon' ;
+    go = 'go' ;
+    next = 'next' ;
+    iteration = 'iteration' ;
+
+// Funções primitivas
+    capture = 'capture' ;
+    show = 'show' ;
+
+// Pontuação
+    lpar = '(' ;
+    rpar = ')' ;
+    lbracket = '[' ;
+    rbracket = ']' ;
+    comma = ',' ;
+    dot = '.' ;
+    colon = ':' ;
+    semicolon = ';' ;
+// Espacos
+    void = (space | rc | nl)+ ;
+    
+
+Ignored Tokens
+ void ;

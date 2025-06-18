@@ -1,0 +1,17 @@
+src/prolixa/Main.java
+src/prolixa/lexer/IPushbackReader.java
+src/prolixa/lexer/Lexer.java
+src/prolixa/lexer/LexerException.java
+src/prolixa/node/TProgram.java
+src/prolixa/node/TVoid.java
+src/prolixa/node/Switch.java
+src/prolixa/node/EOF.java
+src/prolixa/node/TIs.java
+src/prolixa/node/TIdentifier.java
+src/prolixa/node/Node.java
+src/prolixa/node/Token.java
+src/prolixa/node/InvalidToken.java
+src/prolixa/node/Switchable.java
+src/prolixa/node/TThis.java
+src/prolixa/analysis/AnalysisAdapter.java
+src/prolixa/analysis/Analysis.java

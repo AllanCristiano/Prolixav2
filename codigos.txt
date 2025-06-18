@@ -1,0 +1,1 @@
+alias sablecc='java -cp /home/allancristiano/Downloads/CalculadoraLex/sablecc-3.7/lib/sablecc.jar org.sablecc.sablecc.SableCC'
