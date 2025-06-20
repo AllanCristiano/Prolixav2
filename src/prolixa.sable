@@ -92,6 +92,7 @@ Tokens
     dot = '.' ;
     colon = ':' ;
     semicolon = ';' ;
+
 // Espacos
     void = (space | rc | nl)+ ;
     

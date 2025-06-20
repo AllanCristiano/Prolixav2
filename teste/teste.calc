@@ -1,4 +1,45 @@
-This is program Jogo_da_velha
+This is program Calculadora_Simples
 
+It presents:
+  unalterable symbol Operador_Soma = '+';
+  unalterable symbol Operador_Sub = '-';
+  unalterable symbol Operador_Mult = '*';
+  unalterable symbol Operador_Div = '/';
+  alterable number Valor1;
+  alterable number Valor2;
+  alterable symbol Operador_Lido;
+  alterable answer Continuar;
 
+Let us begin:
+  Continuar := yes;
 
+  as long as (Continuar == yes) do
+  [
+    show('Digite o primeiro numero: ');
+    capture(Valor1);
+
+    show('Digite o segundo numero: ');
+    capture(Valor2);
+
+    show('Digite a operacao (+, -, *, /): ');
+    capture(Operador_Lido);
+
+    just in case that (Operador_Lido == Operador_Soma) do
+      show('Resultado: ', Valor1 + Valor2, '\n');
+    otherwise do
+      just in case that (Operador_Lido == Operador_Sub) do
+        show('Resultado: ', Valor1 - Valor2, '\n');
+      otherwise do
+        just in case that (Operador_Lido == Operador_Mult) do
+          show('Resultado: ', Valor1 * Valor2, '\n');
+        otherwise do
+          just in case that (Operador_Lido == Operador_Div) do
+            show('Resultado: ', Valor1 / Valor2, '\n');
+          otherwise do
+            show('Operador invalido!', '\n');
+
+    show('Deseja continuar? (yes/no): ');
+    capture(Continuar);
+  ]
+
+That would be all.
